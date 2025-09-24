@@ -1,6 +1,6 @@
 # Discord Bot Development
 
-A modular Discord bot built in **Python** for **raid coordination** and **community management**. 
+A modular Discord bot built in **Python** for: **raid coordination** and **community management**. 
 This repository is a **showcase** of the system I designed and implemented. It intentionally excludes the proprietary implementation to protect the project’s originality. 
 You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj**.
 
