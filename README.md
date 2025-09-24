@@ -22,8 +22,6 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 - **Calendar** — Server calendar for events/raids; reminders and iCal-style logic.
 - **Radio 24/7** — Continuous audio streaming in a designated voice channel.
 
-➡️ **Join the Discord** to see these features in action: https://discord.gg/XMeevpkj
-
 ## 🧭 Channel Map (How the server is organized)
 - `#welcome` — Onboarding, rules, and verification entry point.
 - `#choose-your-country` — Pick country (reaction/menu); unlocks regional channels.
