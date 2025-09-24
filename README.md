@@ -117,7 +117,7 @@ The architecture is modular, so features can be toggled per guild and evolve ind
 - `.gitignore`.
 
 ## 🚀 See it live
-Best way to evaluate: interact with the running bot in the community server.  
+Once again the best way to evaluate: interact with the running bot in the community server.  
 👉 **https://discord.gg/XMeevpkj**
 
 ## 👤 Author
