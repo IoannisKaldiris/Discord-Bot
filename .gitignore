@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets & Config ---
+.env
+.settings/
+settings.py
+config.py
+*.key
+*.pem
+
+# --- Data & Logs ---
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# --- Private Bot Code (keep proprietary) ---
+cogs/
+extensions/
+
+# --- Cache ---
+.cache/
+*.tmp
+*.swp
