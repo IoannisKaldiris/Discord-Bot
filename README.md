@@ -37,7 +37,7 @@ The architecture is modular, so features can be toggled per guild and evolve ind
 ## 🧭 Channel Map (How the server is organized)
 - `#welcome` — Onboarding, rules, and verification entry point.
 - `#choose-your-country` — Pick country (reaction/menu); unlocks regional channels.
-- `#market` — Marketplace hub with rules, examples, and curated highlights.
+- `#market` — Marketplace hub with a persistent **Marketplace Post** panel. Choose **Buy** or **Sell** to open the modal; the bot publishes a listing embed to `#want-to-buy` or `#want-to-sell` and lets people make in-game equipment trading through discord.
 - `#announcements` — Global news, raid timelines, winners.
 - `#raid-lobby` — Create/join raids; bot manages capacity and auto-closes.
 - `#party-finder` — Quick dungeon party formation (role-based).
