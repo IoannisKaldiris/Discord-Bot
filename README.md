@@ -125,6 +125,6 @@ Explore more of my work: https://github.com/IoannisKaldiris
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green">
   </a>
   <a href="https://discord.gg/XMeevpkj">
-    <img alt="Status" src="https://img.shields.io/badge/Live-Demo%20in%20Discord-brightgreen">
+    <img alt="Status" src="https://img.shields.io/badge/Live-Bot%20in%20Discord-brightgreen">
   </a>
 </p>
