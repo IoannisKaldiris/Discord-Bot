@@ -109,6 +109,21 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 Best way to evaluate: interact with the running bot in the community server.  
 👉 **https://discord.gg/XMeevpkj**
 
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.11%2B-blue">
+  </a>
+  <a href="https://discordpy.readthedocs.io/en/stable/">
+    <img alt="discord.py" src="https://img.shields.io/badge/discord.py-2.x-informational">
+  </a>
+  <a href="LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green">
+  </a>
+  <a href="https://discord.gg/XMeevpkj">
+    <img alt="Status" src="https://img.shields.io/badge/Live-Demo%20in%20Discord-brightgreen">
+  </a>
+</p>
+
 ## 👤 Author
 **Ioannis Kaldiris** — Java & Python developer, with a focus on backend systems, Discord integrations, and scalable architectures.  
 Explore more of my work: https://github.com/IoannisKaldiris
