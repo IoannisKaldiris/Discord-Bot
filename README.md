@@ -12,11 +12,8 @@ Concretely, it handles daily ops for territory-war nights, collects availability
 
 The architecture is modular, so features can be toggled per guild and evolve independently without breaking others. This repository is a public showcase of the design and capabilities; the proprietary implementation is intentionally withheld to protect the originality of the approach while the project grows. The goal is simple: less coordination overhead, faster party formation, clearer communication, and higher engagement—so your MMO community spends more time in content and less time organizing. You can see it live in our Discord: https://discord.gg/XMeevpkj.
 
-
-
-
-> ⚠️ Source code for the bot’s features is not displayed. This repo documents the design, capabilities, and structure.
-
+> ⚠️ The feature implementation code is intentionally private to protect the project’s originality. This repo documents the design, capabilities, and structure. For collaboration or serious inquiries, contact me by email (see my GitHub profile) or on Discord: **diro#2699**.
+> 
 ## 👋 What this bot does (Feature Overview)
 - **Country Selection (Voice/Text)** — Users pick their country to unlock region-specific voice/text channels and roles.
 - **Verification** — Secure onboarding to keep the server clean from spam/bots.
