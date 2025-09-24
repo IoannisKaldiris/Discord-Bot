@@ -86,7 +86,7 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
   - Ensure the app has write permissions for the `data/` directory.  
 
 - **Environment variables / settings**:
-  - `DISCORD_BOT_TOKEN` (never commit this to GitHub).  
+  - `DISCORD_BOT_TOKEN`.  
   - Optional: `TIMEZONE` for calendars and schedulers.  
 
 - **Hosting** (for production or 24/7 uptime):  
