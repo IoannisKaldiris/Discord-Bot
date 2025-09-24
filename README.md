@@ -20,6 +20,7 @@ The architecture is modular, so features can be toggled per guild and evolve ind
 - **Country Selection (Voice/Text)** — Users pick their country to unlock region-specific voice/text channels and roles.
 - **Verification** — Secure onboarding to keep the server clean from spam/bots.
 - **Welcome & Leave** — Automated welcome messages, role hints, and clean leave logs.
+- **Market** — Structured guild marketplace with `#market`, `#want-to-buy`, and `#want-to-sell`; posting templates, cooldowns, auto-expiry, and light moderation tools.
 - **Raid System** — Create, manage, and auto-close raid lobbies; balance groups dynamically.
 - **Party Finder (Dungeons)** — Fast matchmaking flow to form dungeon parties with role preferences.
 - **Gather** — Daily/periodic resource collection with inventory and cooldown logic.
