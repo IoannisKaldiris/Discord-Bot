@@ -4,7 +4,7 @@ A modular Discord bot built in Python for **raid coordination** and **community 
 This repository is a **showcase** of the system I designed and implemented. It intentionally excludes the proprietary implementation to protect the project’s originality. 
 You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj**.
 
-> ⚠️ Source code for the bot’s features (cogs) is not public. This repo documents the design, capabilities, and structure.
+> ⚠️ Source code for the bot’s features is not displayed. This repo documents the design, capabilities, and structure.
 
 ## 👋 What this bot does (Feature Overview)
 - **Country Selection (Voice/Text)** — Users pick their country to unlock region-specific voice/text channels and roles.
