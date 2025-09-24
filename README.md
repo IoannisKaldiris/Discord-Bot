@@ -114,7 +114,7 @@ The architecture is modular, so features can be toggled per guild and evolve ind
 - `/docs/CHANNELS.md` — Server layout and behavior of each channel.
 - `settings.example.py` — A **safe** template of configuration keys.
 - `requirements.txt` — High-level dependency list (no private libs).
-- `.gitignore` —.
+- `.gitignore`.
 
 ## 🚀 See it live
 Best way to evaluate: interact with the running bot in the community server.  
