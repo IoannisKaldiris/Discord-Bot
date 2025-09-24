@@ -17,6 +17,12 @@ Below is a non-code deep dive into how users experience each capability and how 
 - **Concepts**: Templates with variables, media support.
 - **Admin controls**: Templates, timing, destination channels.
 
+## Market
+- **User flow**: Members browse `#market` for rules and examples, then post in `#want-to-buy` or `#want-to-sell` using a guided template. The bot validates required fields, timestamps the post, and (optionally) auto-expires or archives listings after a set period. Buyers and sellers can continue in a thread or DM.
+- **Concepts**: Structured listing templates (WTB/WTS), cooldowns and anti-spam, optional tags (e.g., rarity/tier), soft moderation (auto-delete on expiry), and light analytics (e.g., volume per day).
+- **Admin controls**: Edit templates and required fields, set posting cooldowns, define listing lifetime (days), choose allowed roles to post, enable/disable auto-threads, and configure moderation actions for expired or non-compliant posts.
+
+
 ## Raid System
 - **User flow**: Create raid → define capacity → users join/leave → auto-close after timeout or full.
 - **Concepts**: Lobby state machine, capacity management, role/priority filters.
