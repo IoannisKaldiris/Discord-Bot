@@ -50,7 +50,7 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 - **Python**: 3.11+ (works on 3.10–3.12).  
 
 - **Discord Application & Bot** (via [Discord Developer Portal](https://discord.com/developers/applications)):
-  - Create an application → add a **Bot** → copy the **token** (store in `.env` or `settings.py`).
+  - Create an application → add a **Bot** → copy the **token** and store.
   - **OAuth2 scopes** when inviting: `bot`, `applications.commands`.
   - **Recommended permissions**: 
     - Send Messages  
