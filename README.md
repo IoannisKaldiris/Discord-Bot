@@ -49,8 +49,15 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 
 - **Python**: 3.11+ (works on 3.10–3.12).  
 
+- **Dependencies**:
+  - Install from `requirements.txt`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - Includes: `discord.py[voice]`, `apscheduler`, `pytz`, `python-dotenv`, `aiosqlite`, `PyNaCl`.
+
 - **Discord Application & Bot** (via [Discord Developer Portal](https://discord.com/developers/applications)):
-  - Create an application → add a **Bot** → copy the **token** and store.
+  - Create an application → add a **Bot** → copy the **token** and store it safely.
   - **OAuth2 scopes** when inviting: `bot`, `applications.commands`.
   - **Recommended permissions**: 
     - Send Messages  
@@ -79,13 +86,12 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
   - Ensure the app has write permissions for the `data/` directory.  
 
 - **Environment variables / settings**:
-  - `DISCORD_BOT_TOKEN`.  
+  - `DISCORD_BOT_TOKEN` (never commit this to GitHub).  
   - Optional: `TIMEZONE` for calendars and schedulers.  
 
 - **Hosting** (for production or 24/7 uptime):  
   - VPS/VM or Docker setup with a process manager (e.g., `systemd`, `pm2`, or `docker compose`).  
   - NTP time sync recommended for accurate scheduling.
-
 
 ## 🔒 Why the implementation is private
 - Prevent idea and approach cloning while I continue to iterate.
@@ -93,17 +99,17 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 
 ## 📦 What’s included in this repo
 - This **README** (overview and documentation).
-- `/docs/FEATURES.md` — Deeper descriptions and flows for each feature.
+- `/docs/FEATURES.md` — Deeper descriptions and flows for each feature and better undrstanding for anyone interested.
 - `/docs/CHANNELS.md` — Server layout and behavior of each channel.
-- `settings.example.py` — A **safe** template of configuration keys (no secrets).
+- `settings.example.py` — A **safe** template of configuration keys.
 - `requirements.txt` — High-level dependency list (no private libs).
-- `.gitignore` — Ensures private code, data, and secrets stay out of Git history.
+- `.gitignore` —.
 
 ## 🚀 See it live
 Best way to evaluate: interact with the running bot in the community server.  
 👉 **https://discord.gg/XMeevpkj**
 
 ## 👤 Author
-**Ioannis Kaldiris** — Python & Java developer, with a focus on backend systems, Discord integrations, and scalable architectures.  
+**Ioannis Kaldiris** — Java & Python developer, with a focus on backend systems, Discord integrations, and scalable architectures.  
 Explore more of my work: https://github.com/IoannisKaldiris
 
