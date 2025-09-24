@@ -114,5 +114,6 @@ Explore more of my work: https://github.com/IoannisKaldiris
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/downloads/)
 [![discord.py](https://img.shields.io/badge/discord.py-2.x-informational)](https://discordpy.readthedocs.io/en/stable/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Live-Bot%20in%20Discord-brightgreen)](https://discord.gg/XMeevpkj)
+[![Status](https://img.shields.io/badge/Live-Demo%20in%20Discord-brightgreen)](https://discord.gg/XMeevpkj)
+
 
