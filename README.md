@@ -124,6 +124,7 @@ Best way to evaluate: interact with the running bot in the community server.
 **Ioannis Kaldiris** — Java & Python developer, with a focus on backend systems, Discord integrations, and scalable architectures.  
 Explore more of my work: https://github.com/IoannisKaldiris
 
+##
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/downloads/)
 [![discord.py](https://img.shields.io/badge/discord.py-2.x-informational)](https://discordpy.readthedocs.io/en/stable/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
