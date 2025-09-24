@@ -1,4 +1,4 @@
-# Raid Bot — Discord Community & Raid Coordinator (Showcase)
+# Discord Bot — Discord Community Developer
 
 A modular Discord bot built in Python for **raid coordination** and **community management**. 
 This repository is a **showcase** of the system I designed and implemented. It intentionally excludes the proprietary implementation to protect the project’s originality. 
