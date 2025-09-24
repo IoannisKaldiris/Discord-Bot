@@ -5,6 +5,7 @@ This maps Discord channels to features so reviewers can quickly understand the s
 - **#welcome** — Entry point with rules, verification, and intro.
 - **#choose-your-country** — Country selector; grants regional roles.
 - **#announcements** — Global notices, raid schedules, Giveaway winners.
+- **#market** — Central board. Pin the posting rules and a couple of good examples. Optionally let staff highlight notable listings here.
 - **#raid-lobby** — Create/join raids; auto-management and closure.
 - **#party-finder** — Role-based party forming for dungeons.
 - **#gather** — Resource collection commands and leaderboards.
