@@ -45,6 +45,48 @@ You can **see it live** and interact with it here: **https://discord.gg/XMeevpkj
 - **Safety**: Token and secrets are injected via environment variables; sensitive code remains private.
 - **Scalability**: Features can be toggled on/off per guild; state isolation per server.
 
+## ✅ Prerequisites
+
+- **Python**: 3.11+ (works on 3.10–3.12).  
+
+- **Discord Application & Bot** (via [Discord Developer Portal](https://discord.com/developers/applications)):
+  - Create an application → add a **Bot** → copy the **token** (store in `.env` or `settings.py`).
+  - **OAuth2 scopes** when inviting: `bot`, `applications.commands`.
+  - **Recommended permissions**: 
+    - Send Messages  
+    - Read Message History  
+    - Manage Messages  
+    - Embed Links  
+    - Attach Files  
+    - Add Reactions  
+    - Use Slash Commands  
+    - (Optional) Manage Roles / Manage Channels (for role assignment, country channels)  
+    - (Optional) Connect / Speak (for Radio 24/7)  
+  - **Gateway Intents** (enable under *Bot → Privileged Gateway Intents*):
+    - ✅ Server Members (needed for verification and role assignment)  
+    - ✅ Message Content (only if parsing raw messages; not needed for slash commands)  
+    - ✅ Presence (optional)  
+    - ✅ Guilds & Voice States (for voice and radio features)  
+
+- **System tools (for Radio 24/7 + voice features)**:
+  - [FFmpeg](https://ffmpeg.org/download.html) (required).  
+    - Windows: download FFmpeg and add it to PATH.  
+    - Linux (Debian/Ubuntu): `sudo apt install ffmpeg`
+  - **Opus codec** (usually bundled).  
+    - Linux: `sudo apt install libopus0`
+
+- **Storage**: SQLite (bundled with Python).  
+  - Ensure the app has write permissions for the `data/` directory.  
+
+- **Environment variables / settings**:
+  - `DISCORD_BOT_TOKEN` (never commit this to GitHub).  
+  - Optional: `TIMEZONE` for calendars and schedulers.  
+
+- **Hosting** (for production or 24/7 uptime):  
+  - VPS/VM or Docker setup with a process manager (e.g., `systemd`, `pm2`, or `docker compose`).  
+  - NTP time sync recommended for accurate scheduling.
+
+
 ## 🔒 Why the implementation is private
 - Prevent idea and approach cloning while I continue to iterate.
 - Maintain a competitive edge while demonstrating my engineering rigor and design thinking.
